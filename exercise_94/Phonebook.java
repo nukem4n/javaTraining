@@ -13,4 +13,13 @@ public class Phonebook{
   
   }
   
+  public String searchNumber(String name){
+    
+    for(Student sr : list){
+                    if(sr.getName().contains(name)){
+                        return ""+name.getNumber();
+                    } else {
+                        return "number not known";
+                    }
+
 }
