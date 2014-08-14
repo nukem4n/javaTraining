@@ -13,7 +13,7 @@ public class Person {
       return this.name;
     }
     
-    public String getNumeber(){
+    public String getNumber(){
       return this.phoneNumber;
     }
     
