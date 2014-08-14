@@ -6,6 +6,11 @@ public class Main {
 
   public static int sum(int[] array) {
     // write code here
-    return 0;
+    int sum = 0;
+    for(int i=0;i<array.length;i++){
+    sum+=array[i];
+    }
+    
+    return sum;
   }
 }
