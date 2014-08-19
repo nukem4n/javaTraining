@@ -15,5 +15,17 @@ public class Book{
     public String title(){
     return this.title;
     }
+    
+    public String publisher(){
+    return this.publisher;
+    }
+    
+    public int year(){
+    return this.year;  
+    }
+    
+    public String toString(){
+    return ""+this.title+", "+this.publisher+", "+this.year; 
+    }
 
 }
